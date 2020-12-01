@@ -32,7 +32,11 @@ defmodule StompClient.DefaultCallbackHandler do
   end
 
   def handle_info({:stomp_client, :on_message, message}, state) do
-    Logger.info("stomp_client message received: #{inspect(message, binaries: :as_strings)}")
+
+
+    Logger.info("stomp_client message has been received: #{inspect(message, binaries: :as_strings)}")
+
+
     {:noreply, state}
   end
 

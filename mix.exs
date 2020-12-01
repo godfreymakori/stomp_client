@@ -43,9 +43,9 @@ defmodule StompClient.Mixfile do
     [
       name: :stomp_client,
       files: ["lib", "mix.exs", "README*", "LICENSE*"],
-      maintainers: ["miwee"],
+      maintainers: ["godfreymakori"],
       licenses: ["Apache 2.0"],
-      links: %{"GitHub" => "https://github.com/miwee/stomp_client"}
+      links: %{"GitHub" => "godfreymakori/stomp_client"}
     ]
   end
 end
